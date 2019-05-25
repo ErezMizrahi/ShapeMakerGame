@@ -12,6 +12,8 @@
 		6DBE3697229712E5000BE67A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DBE3695229712E4000BE67A /* Main.storyboard */; };
 		6DBE3699229712FB000BE67A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DBE3698229712FB000BE67A /* Assets.xcassets */; };
 		6DBE369C229712FB000BE67A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DBE369A229712FB000BE67A /* LaunchScreen.storyboard */; };
+		6DBE36A422971CCD000BE67A /* ConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE36A322971CCD000BE67A /* ConnectionView.swift */; };
+		6DBE36A622994C1D000BE67A /* ScoreLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE36A522994C1D000BE67A /* ScoreLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		6DBE3698229712FB000BE67A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DBE369B229712FB000BE67A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DBE369D229712FB000BE67A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DBE36A322971CCD000BE67A /* ConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionView.swift; sourceTree = "<group>"; };
+		6DBE36A522994C1D000BE67A /* ScoreLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				6DBE3698229712FB000BE67A /* Assets.xcassets */,
 				6DBE369A229712FB000BE67A /* LaunchScreen.storyboard */,
 				6DBE369D229712FB000BE67A /* Info.plist */,
+				6DBE36A322971CCD000BE67A /* ConnectionView.swift */,
+				6DBE36A522994C1D000BE67A /* ScoreLabel.swift */,
 			);
 			path = ShapeMaker;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DBE3694229712E4000BE67A /* ViewController.swift in Sources */,
+				6DBE36A422971CCD000BE67A /* ConnectionView.swift in Sources */,
 				6DBE3692229712E4000BE67A /* AppDelegate.swift in Sources */,
+				6DBE36A622994C1D000BE67A /* ScoreLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
