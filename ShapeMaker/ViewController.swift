@@ -209,16 +209,6 @@ class ViewController: UIViewController  {
 }
 
 
-protocol iGamplay {
-//    func checkMove()
-//    func levelUp()
-//    func levelClear()
-    func linesCross(start1: CGPoint, end1: CGPoint, start2: CGPoint, end2: CGPoint) -> (x: CGFloat, y: CGFloat)?
-    func place (_ connection : ConnectionView)
-    func redrawLines()
-//
-}
-
 
 
 
